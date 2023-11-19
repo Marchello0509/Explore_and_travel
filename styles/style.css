@@ -1,9 +1,317 @@
+.modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  position: fixed;
+}
+.modal_form {
+  width: 425px;
+  height: 450px;
+  border-radius: 4px;
+  background: #FFF;
+}
+.modal_form_fortitle {
+  display: flex;
+  justify-content: center;
+}
+.modal_form_fortitle_title {
+  color: #202336;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 35px;
+}
+.modal_form_fortitle2 {
+  display: flex;
+  justify-content: center;
+}
+.modal_form_fortitle2_title {
+  color: #202336;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 45px;
+}
+.modal_form_forinput1 {
+  display: flex;
+  justify-content: center;
+}
+.modal_form_forinput1_input1 {
+  width: 299px;
+  height: 52px;
+  border-radius: 6px;
+  border: 0.8px solid #AFB0B9;
+  margin-top: 8px;
+  color: #202336;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.modal_form_fortitle3 {
+  display: flex;
+  justify-content: center;
+}
+.modal_form_fortitle3_title {
+  color: #202336;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+.modal_form_forinput2 {
+  display: flex;
+  justify-content: center;
+}
+.modal_form_forinput2_input1 {
+  width: 299px;
+  height: 52px;
+  border-radius: 6px;
+  border: 0.8px solid #AFB0B9;
+  margin-top: 8px;
+  color: #202336;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.modal_form_forbtn1 {
+  display: flex;
+  justify-content: center;
+}
+.modal_form_forbtn1_btn {
+  width: 132px;
+  height: 44px;
+  border-radius: 8px;
+  margin-top: 26px;
+  border: 1px solid #FB8F1D;
+  background: #FFF;
+  color: #FB8F1D;
+  font-family: Inter;
+  font-size: 15px;
+  cursor: pointer;
+  transition-duration: 0.6s;
+}
+.modal_form_forbtn1_btn:hover {
+  transition-duration: 0.6s;
+  border-radius: 8px;
+  background: #FB8F1D;
+  color: #FFF;
+}
+.modal_form_forbtn2 {
+  display: flex;
+  justify-content: center;
+}
+.modal_form_forbtn2_btn {
+  width: 132px;
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid #FB8F1D;
+  background: #FFF;
+  color: #FB8F1D;
+  font-family: Inter;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+  transition-duration: 0.6s;
+}
+.modal_form_forbtn2_btn:hover {
+  transition-duration: 0.6s;
+  border-radius: 8px;
+  background: #FB8F1D;
+  color: #FFF;
+}
+
+.modal2 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  position: fixed;
+}
+.modal2_form {
+  width: 425px;
+  height: 540px;
+  border-radius: 4px;
+  background: #FFF;
+}
+.modal2_form_fortitle {
+  display: flex;
+  justify-content: center;
+}
+.modal2_form_fortitle_title {
+  color: #202336;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 35px;
+}
+.modal2_form_fortitle2 {
+  display: flex;
+  justify-content: center;
+}
+.modal2_form_fortitle2_title {
+  color: #202336;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 45px;
+}
+.modal2_form_forinput1 {
+  display: flex;
+  justify-content: center;
+}
+.modal2_form_forinput1_input1 {
+  width: 299px;
+  height: 52px;
+  border-radius: 6px;
+  border: 0.8px solid #AFB0B9;
+  margin-top: 8px;
+  color: #202336;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.modal2_form_fortitle3 {
+  display: flex;
+  justify-content: center;
+}
+.modal2_form_fortitle3_title {
+  color: #202336;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+.modal2_form_forinput2 {
+  display: flex;
+  justify-content: center;
+}
+.modal2_form_forinput2_input1 {
+  width: 299px;
+  height: 52px;
+  border-radius: 6px;
+  border: 0.8px solid #AFB0B9;
+  margin-top: 8px;
+  color: #202336;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.modal2_form_fortitle4 {
+  display: flex;
+  justify-content: center;
+}
+.modal2_form_fortitle4_title {
+  color: #202336;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+.modal2_form_forinput3 {
+  display: flex;
+  justify-content: center;
+}
+.modal2_form_forinput3_input1 {
+  width: 299px;
+  height: 52px;
+  border-radius: 6px;
+  border: 0.8px solid #AFB0B9;
+  margin-top: 8px;
+  color: #202336;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.modal2_form_forbtn1 {
+  display: flex;
+  justify-content: center;
+}
+.modal2_form_forbtn1_btn {
+  width: 132px;
+  height: 44px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 1px solid #FB8F1D;
+  background: #FFF;
+  color: #FB8F1D;
+  font-family: Inter;
+  font-size: 15px;
+  cursor: pointer;
+  transition-duration: 0.6s;
+}
+.modal2_form_forbtn1_btn:hover {
+  transition-duration: 0.6s;
+  border-radius: 8px;
+  background: #FB8F1D;
+  color: #FFF;
+}
+.modal2_form_forbtn2 {
+  display: flex;
+  justify-content: center;
+}
+.modal2_form_forbtn2_btn {
+  width: 132px;
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid #FB8F1D;
+  background: #FFF;
+  color: #FB8F1D;
+  font-family: Inter;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+  transition-duration: 0.6s;
+}
+.modal2_form_forbtn2_btn:hover {
+  transition-duration: 0.6s;
+  border-radius: 8px;
+  background: #FB8F1D;
+  color: #FFF;
+}
+
 .header {
   width: 100%;
   height: 70px;
   background: #fff;
   position: fixed;
-  z-index: 3;
+  z-index: 2;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
 }
 .header_head {
